@@ -93,8 +93,6 @@ def checkoutCalculator(ShoppingCart: List[String]): String = {
     }
   }
 
-  println(totalCost / 100)
-
   formatCostToString(totalCost / 100)
 }
 
